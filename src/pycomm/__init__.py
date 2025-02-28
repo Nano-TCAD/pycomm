@@ -3,6 +3,7 @@ from warnings import warn
 from pycomm.core.ocomm import OCOMM
 from pycomm.obare.obare import OBARE
 from pycomm.ompi.ompi import OMPI
+from pycomm.odampi.odampi import ODAMPI
 from pycomm.onccl.onccl import ONCCL
 
 backend_flags = {
@@ -63,6 +64,7 @@ __all__ = [
     "OCOMM",
     "OBARE",
     "OMPI",
+    "ODAMPI",
     "ONCCL",
     "backend_flags",
 ]
